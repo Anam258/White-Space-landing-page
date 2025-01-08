@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animated-element {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+
+.animated-element:hover {
+  transform: translateY(-10px);
+}
