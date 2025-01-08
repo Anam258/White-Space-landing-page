@@ -28,13 +28,8 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="hidden lg:flex gap-4">
+        <div className="hidden lg:flex">
           <button className="bg-[#FFE492] py-4 px-10 rounded-lg">Login</button>
-          <div className="hidden lg:flex">
-            <button className="bg-[#4F9CF9] py-4 px-2 rounded-lg text-white">
-              Try Whitepace Free
-            </button>
-          </div>
         </div>
 
         <button
